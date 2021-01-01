@@ -55,7 +55,7 @@ class ContactData extends Component {
       </form>
     );
     if (this.state.loading) {
-      form = <Spinner />;
+      form = <Spinner/>;
     }
     return (
       <div className={classes.ContactData}>
