@@ -1,0 +1,16 @@
+.Burgerpos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CheckoutSummary{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+@media(min-width : 600px){
+    .CheckoutSummary{
+        width: 500px;
+    }
+}
